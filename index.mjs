@@ -3,7 +3,7 @@ let colleges;
 
 async function loadColleges() {
     if (!colleges) {
-        colleges = await import('./data/colleges.json').then(module => module.default);
+        colleges = await import('./colleges.json').then(module => module.default);
     }
     return colleges;
 }

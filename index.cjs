@@ -1,4 +1,4 @@
-const colleges = require('./data/colleges.json');
+const colleges = require('./colleges.json');
 
 function getAllColleges() {
     return colleges;

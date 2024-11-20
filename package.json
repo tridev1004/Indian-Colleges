@@ -1,15 +1,40 @@
 {
   "name": "indian-colleges",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "index.cjs",
   "module": "index.mjs",
   "exports": {
     "require": "./index.cjs",
     "import": "./index.mjs"
   },
+  "keywords": [
+    "Indian Colleges",
+    "Colleges",
+    "Indian",
+    "India",
+    "College",
+    "List",
+    "Dataset",
+    "Data",
+    "Structured",
+    "Filter"
+  ],
+  "files": [
+    "index.cjs",
+    "index.mjs",
+    "src/",
+    "README.md"
+  ],
   "type": "module",
-  "author": "tridev", 
+  "author": "tridev",
   "scripts": {
     "test": "node index.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tridev1004/Indian-Colleges"
+  },
+  "dependencies": {
+    "indian-colleges": "file:"
   }
 }

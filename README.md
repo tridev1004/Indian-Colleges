@@ -103,13 +103,7 @@ indian-colleges/
 Development
 To test or modify the library:
 
-Clone the repository:
 
-bash
-Copy code
-git clone <https://github.com/tridev1004/Indian-Collleges>
-cd indian-colleges
-Install dependencies:
 
 bash
 Copy code
@@ -132,22 +126,6 @@ node index.js
 Contributing
 Contributions are welcome! To contribute:
 
-Fork the repository.
-Create a feature branch:
-bash
-Copy code
-git checkout -b feature-name
-Commit your changes:
-bash
-Copy code
-git commit -m "Add feature-name"
-Push to your branch:
-bash
-Copy code
-git push origin feature-name
-Create a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Acknowledgments
 Inspired by the need for a structured and easy-to-use dataset of Indian colleges.

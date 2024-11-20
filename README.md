@@ -77,9 +77,16 @@ Parameters:
 state (String) - The name of the state.
 district (String) - The name of the district.
 
-
-
-
+### Sample JSON Array-
+```
+{
+    university: 'Sampurnanand Sanskrit Vishwavidyalaya, Varanasi (Id: U-0537)',
+    college: 'Shri Krushnabrahmacharyashram Sanskrit Mahavidyalaya, Hathras (Id: C-20588)',
+    college_type: 'Affiliated College',
+    state: 'Uttar Pradesh',
+    district: 'Aligarh'
+  },...
+```
 
 
 

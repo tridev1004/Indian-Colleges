@@ -1,6 +1,6 @@
 {
   "name": "indian-colleges",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.cjs",
   "module": "index.mjs",
   "exports": {
@@ -22,7 +22,7 @@
   "files": [
     "index.cjs",
     "index.mjs",
-    "src/",
+    "colleges.json",
     "README.md"
   ],
   "type": "module",

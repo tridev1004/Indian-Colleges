@@ -1,0 +1,15 @@
+{
+  "name": "indian-colleges",
+  "version": "1.0.0",
+  "main": "index.cjs",
+  "module": "index.mjs",
+  "exports": {
+    "require": "./index.cjs",
+    "import": "./index.mjs"
+  },
+  "type": "module",
+  "author": "tridev", 
+  "scripts": {
+    "test": "node index.cjs"
+  }
+}

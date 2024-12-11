@@ -20,6 +20,16 @@ function getCollegesByStateAndDistrict(state, district) {
 function getAllUniversities() {
     return [...new Set(colleges.map(college => college.university))];
   }
+
+
+  function getAllCollegesAndUniversities() {
+    return [...new Set([
+      ...colleges.map(college => college.university),
+
+      ...colleges.map(college => college.college)
+    ])];
+  }
+  
   
 
 module.exports = {
@@ -27,5 +37,6 @@ module.exports = {
     getCollegesByState,
     getCollegesByDistrict,
     getCollegesByStateAndDistrict,
-    getAllUniversities
+    getAllUniversities,
+    getAllCollegesAndUniversities
 };

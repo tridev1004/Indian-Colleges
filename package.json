@@ -1,6 +1,6 @@
 {
   "name": "indian-colleges",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A comprehensive dataset of Indian colleges, including details for structured filtering and data-driven applications.",
   "main": "index.cjs",
   "module": "index.mjs",

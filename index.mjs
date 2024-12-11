@@ -35,3 +35,11 @@ export async function getAllUniversities() {
     const colleges = await loadColleges();
     return [...new Set(colleges.map(college => college.university))];
 }
+export async function getAllCollegesAndUniversities() {
+    const colleges = await loadColleges();
+    return [...new Set([
+        ...colleges.map(college => college.university),
+
+        ...colleges.map(college => college.college)
+    ])];
+}

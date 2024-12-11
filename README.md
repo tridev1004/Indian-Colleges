@@ -59,6 +59,12 @@ getAllUniversities()
 ```
 
 
+###  Returns: Array - List of all Universities and Colleges.
+```
+getAllCollegesAndUniversities()
+```
+
+
 ### Returns: Array - List of colleges in the specified state.
 ```
 getCollegesByState(state)

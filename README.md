@@ -7,7 +7,7 @@ npm install indian-colleges
 ```
 
 Usage
-### CommonJs
+### CommonJS
 
 
 ```
@@ -16,6 +16,7 @@ const {
     getCollegesByState,
     getCollegesByDistrict,
     getCollegesByStateAndDistrict
+    getAllUniversities
 } = require('indian-colleges');
 
 console.log("All Colleges:", getAllColleges());
@@ -35,6 +36,7 @@ import {
     getCollegesByState,
     getCollegesByDistrict,
     getCollegesByStateAndDistrict
+    getAllUniversities
 } from 'indian-colleges';
 
 console.log("All Colleges:", getAllColleges());
@@ -49,6 +51,13 @@ API Reference
 ```
 getAllColleges()
 ```
+
+
+###  Returns: Array - List of all Universities.
+```
+getAllUniversities()
+```
+
 
 ### Returns: Array - List of colleges in the specified state.
 ```

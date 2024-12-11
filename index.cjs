@@ -1,7 +1,7 @@
 const colleges = require('./colleges.json');
 
 function getAllColleges() {
-    return colleges;
+    return colleges.map(college => college.college);
 }
 
 function getCollegesByState(state) {
@@ -17,10 +17,15 @@ function getCollegesByStateAndDistrict(state, district) {
         college => college.state === state && college.district === district
     );
 }
+function getAllUniversities() {
+    return [...new Set(colleges.map(college => college.university))];
+  }
+  
 
 module.exports = {
     getAllColleges,
     getCollegesByState,
     getCollegesByDistrict,
-    getCollegesByStateAndDistrict
+    getCollegesByStateAndDistrict,
+    getAllUniversities
 };

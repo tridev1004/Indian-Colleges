@@ -1,4 +1,3 @@
-// Import JSON dynamically
 let colleges;
 
 async function loadColleges() {
@@ -10,7 +9,7 @@ async function loadColleges() {
 
 export async function getAllColleges() {
     const colleges = await loadColleges();
-    return colleges;
+    return colleges.map(college => college.college);
 }
 
 export async function getCollegesByState(state) {
@@ -28,4 +27,11 @@ export async function getCollegesByStateAndDistrict(state, district) {
     return colleges.filter(
         college => college.state === state && college.district === district
     );
+}
+
+
+
+export async function getAllUniversities() {
+    const colleges = await loadColleges();
+    return [...new Set(colleges.map(college => college.university))];
 }
